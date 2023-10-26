@@ -10,7 +10,7 @@ Para calcular o percentual de imposto segue as aliquotas
 
 De r$ 0.00  a R$ 1100.00 = 5.00%
 De R$ 1100,01 A R$ 2500.00 = 10.00%
-mAIOR QUE R$ 2500 = 15.00%
+Maior que R$ 2500 = 15.00%
 
 Entrada
 A entrada consiste em vários arquivos de teste que conterá o valor bruto do salario
