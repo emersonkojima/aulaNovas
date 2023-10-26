@@ -6,16 +6,25 @@ O salario a ser transferido é calculado da seguinte maneira:
 
 (valor bruto do salario = percentual de imposto mediante ao salario)+ adicional dos beneficios */
 
-let salario = 2000.00
-let valorAPagar = calculoCom5(salario)
+let salario = 1100.00
 
 
-function calculoCom5(x, y = 5){
+function calculo(x, y){
     valorFinal = ((salario * y) / 100) + salario
     return(valorFinal)
-} 
+}
 
-console.log(valorAPagar)
+//Maior que R$ 2500 = 15.00%
+if(salario >= 2500)
+    console.log(calculo(salario, 15))
+   
+//1100.01 A R$ 2500.00 = 10.00%
+else if(salario >= 1100.01 && salario <= 2500.00)
+    console.log(calculo(salario, 10))
+
+else
+    console.log(calculo(salario, 5))
+
 
 
 
