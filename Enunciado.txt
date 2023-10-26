@@ -1,0 +1,27 @@
+/*
+Faça um programa que calcule e imprima o salario a ser transferido para um funcionario
+
+Para realizar o calculo receba o valor bruto do salario e o adicional dos beneficios
+O salario a ser transferido é calculado da seguinte maneira:
+
+(valor bruto do salario = percentual de imposto mediante ao salario)+ adicional dos beneficios
+
+Para calcular o percentual de imposto segue as aliquotas
+
+De r$ 0.00  a R$ 1100.00 = 5.00%
+De R$ 1100,01 A R$ 2500.00 = 10.00%
+mAIOR QUE R$ 2500 = 15.00%
+
+Entrada
+A entrada consiste em vários arquivos de teste que conterá o valor bruto do salario
+e adicional dos beneficios. Conforme mostrado no exemplo de entrada a seguida
+
+Saida
+Para cada arquivo de entrada terá um arquivo de saida
+E ecomo mencionado no desafio, sera gerado uma linha com um numero
+Que será a diferença entre o valor bruto do salario e o adicional dos beneficios
+Use o exemplo abaixo para clarear o que esta sendo pedido
+
+ENTRADA | SAIDA
+2000    | 2050.00
+250S */
