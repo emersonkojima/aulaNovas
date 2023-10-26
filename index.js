@@ -7,18 +7,17 @@ O salario a ser transferido é calculado da seguinte maneira:
 (valor bruto do salario = percentual de imposto mediante ao salario)+ adicional dos beneficios */
 
 let salario = 2000.00
-let valorAPagar = soma(salario, porcentagem)
+let valorAPagar = calculoCom5(salario)
 
-function soma(x, y){
-    valorFinal = x + y
+
+function calculoCom5(x, y = 5){
+    valorFinal = ((salario * y) / 100) + salario
     return(valorFinal)
-}
+} 
 
 console.log(valorAPagar)
 
-//if(salario >= 1100.01 && salario <= 2500.00)
-  //  porcentagem = 10
-    //console.log("mensagem" + soma(salario + porcentagem))
+
 
 
 
