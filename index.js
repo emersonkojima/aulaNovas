@@ -7,10 +7,11 @@ O salario a ser transferido é calculado da seguinte maneira:
 (valor bruto do salario = percentual de imposto mediante ao salario)+ adicional dos beneficios */
 
 let salario = 2000.00
+let beneficios = 250.00
 
 
 function calculo(x, y){
-    valorFinal = ((salario * y) / 100) + salario
+    valorFinal = (( salario - (salario * y) / 100)) + beneficios 
     return(valorFinal)
 }
 
